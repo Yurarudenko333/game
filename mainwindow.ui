@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="newGameBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:greenyellow;
+color:red;
+font-style:bold;
+font-size:20px;
+border: 3px solid blue;
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>NewGame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="leaderboardBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>165</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:greenyellow;
+color:red;
+font-style:bold;
+font-size:20px;
+border: 3px solid blue;
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>LeaderBoard</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settingsBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>270</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:greenyellow;
+color:red;
+font-style:bold;
+font-size:20px;
+border: 3px solid blue;
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>Settings</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitBtn">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>390</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:red;
+color:white;
+font-style:bold;
+font-size:20px;
+border: 3px solid blue;
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>Quit</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
